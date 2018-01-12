@@ -16,6 +16,18 @@ More info about Dialogflow webhooks could be found here:
 * Create the intent (like weather in singapore [$geo-city] ) and enable webhook fulfillment in the intent
 * Test in your console
 # Examples
+#### weather in Avinashi
+Today the weather in Avinashi:   
+Temperature in Celsius:  
+Max temp :29.0.  
+Min Temp :29.0.  
+Temperature in Fahrenheit:  
+Max temp :84.2.  
+Min Temp :84.2.  
+Humidity :54.  
+Wind Speed :2.6  
+Latitude :11.19.  
+Longitude :77.27  
 
 
 # What does the service do?
