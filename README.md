@@ -1,8 +1,7 @@
 # weather_bot
 Weather Bot using OWM deployed in dialogflow
-# Dialogflow Webhook weather implementation in Python
-
-This is a  simple webhook implementation that gets Dialogflow JSON request and returns a webhook fulfillment response.
+## Dialogflow Webhook weather implementation in Python
+This service takes `geo-city` as a param from Dialogflow JSON request and find the weather for the provided city using Open Weather Map and returns a webhook response
 
 More info about Dialogflow webhooks could be found here:
 [Dialogflow Webhook](https://dialogflow.com/docs/fulfillment)
@@ -29,14 +28,5 @@ Wind Speed :2.6
 Latitude :11.19.  
 Longitude :77.27  
 
-
-# What does the service do?
-It's a weather information fulfillment service that uses [Open Weather Map API](https://openweathermap.org/api).
-The services takes the `geo-city` parameter from the action, performs geolocation for the city and requests weather information from Open Weather Map API 
-
-The service packs the result in the Api.ai webhook-compatible response JSON and returns it to Api.ai.
-
-
-## Terms
-[Google APIs Terms of Service](https://developers.google.com/terms/).
-
+### Terms
+* [Google APIs Terms of Service](https://developers.google.com/terms/).
