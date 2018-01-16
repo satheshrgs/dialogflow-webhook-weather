@@ -10,8 +10,9 @@ More info about Dialogflow webhooks could be found here:
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # How to use?
-* create a new agent in [Dialogflow](https://dialogflow.com/)
+* Create a new agent in [Dialogflow](https://dialogflow.com/)
 * Provide your fulfillment info. Deploy using heroku or provide your own. (https//www.example.com/webhook)
+* Provide API key of OWM as OWMApiKey with value in Config Vars of heroku (or) use your key directly in the file. 
 * Create the intent (like weather in singapore [$geo-city] ) and enable webhook fulfillment in the intent
 * Test in your console
 # Examples
@@ -29,4 +30,4 @@ Latitude :11.19.
 Longitude :77.27  
 
 ### Terms
-* [Google APIs Terms of Service](https://developers.google.com/terms/).
+* [Google APIs Terms](https://developers.google.com/terms/).
